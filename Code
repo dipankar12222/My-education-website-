@@ -1,0 +1,97 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Educational Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f7fb;
+    }
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #34495e;
+    }
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      display: block;
+    }
+    nav a:hover {
+      background: #1abc9c;
+    }
+    .container {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      margin: 15px 0;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      background: #2c3e50;
+      color: white;
+      padding: 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Educational Website</h1>
+    <p>Learn • Practice • Grow</p>
+  </header>
+
+  <nav>
+    <a href="#notes">Notes</a>
+    <a href="#videos">Videos</a>
+    <a href="#quizzes">Quizzes</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container">
+    <div class="card" id="notes">
+      <h2>📘 Study Notes</h2>
+      <p>Here you can upload chapter-wise notes and study materials.</p>
+    </div>
+
+    <div class="card" id="videos">
+      <h2>🎥 Video Lessons</h2>
+      <p>Embed YouTube video lectures for easy learning.</p>
+      <iframe width="100%" height="300" src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+        title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="card" id="quizzes">
+      <h2>📝 Practice Quizzes</h2>
+      <p>Add simple quizzes or link to Google Forms for practice tests.</p>
+      <a href="https://forms.gle/" target="_blank">Take a Sample Quiz</a>
+    </div>
+
+    <div class="card" id="contact">
+      <h2>📩 Contact</h2>
+      <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 My Educational Website | Made with ❤️</p>
+  </footer>
+</body>
+</html>
